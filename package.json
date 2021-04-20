@@ -1,0 +1,35 @@
+{
+  "name": "collegeapi",
+  "version": "1.0.0",
+  "description": "一些获取高校信息的Api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuoSK/CollegeApi.git"
+  },
+  "author": "Luosk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuoSK/CollegeApi/issues"
+  },
+  "homepage": "https://github.com/LuoSK/CollegeApi#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "@api": "app/api",
+    "@utils": "app/utils",
+    "@config": "app/config",
+    "@lib": "app/lib",
+    "@middlewares": "app/middlewares"
+  }
+}
