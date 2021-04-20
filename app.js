@@ -47,7 +47,7 @@ requireDir(join(__dirname, 'app/api'), (route, fullPath, filename) => {
 app.use(router.routes())
 
 
-const host = process.env.host || 'localhost'
+const host = process.env.HOST || 'localhost'
 const port = process.env.PORT || 3000
 
 // start app
